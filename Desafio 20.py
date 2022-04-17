@@ -11,5 +11,4 @@ nome = [a1,a2,a3,a4]
 ordem = shuffle(nome)
 print('A ordem dos alunos escolhidos para apagar o quadro será!')
 print(nome)
-asd
 
