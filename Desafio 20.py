@@ -12,7 +12,3 @@ ordem = shuffle(nome)
 print('A ordem dos alunos escolhidos para apagar o quadro será!')
 print(nome)
 
-
-
-
-é só um teste!
