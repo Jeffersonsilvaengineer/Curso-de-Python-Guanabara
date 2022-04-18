@@ -1,8 +1,8 @@
 '''faça um programa que leia um numero inteiro e mostre sua tabuada!'''
 
 n = int(input('digite um numero!'))
-print(f'você digitou {n}!'.format(n))
-print(f'A tabuada de {n} é!'.format(n))
+print(f'você digitou {n}!')
+print(f'A tabuada de {n} é!')
 print(f'{n} x 01 = \033[41;30m{n*1}\033[m')
 print(f'{n} x 02 = \033[37;40m{n*2}\033[m')
 print(f'{n} x 03 = \033[7;36;41m{n*3}\033[m')
