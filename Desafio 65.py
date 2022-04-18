@@ -15,3 +15,5 @@ media = soma / cont
 print(f'FIM! você digitou {cont} números e a média desses valores é {media}')
 print(f'O maior valor é {max(list)} e o menor valor é {min(list)}')
 
+
+
