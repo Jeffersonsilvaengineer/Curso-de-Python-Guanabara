@@ -12,6 +12,6 @@ while continuar in 'Ss':
     list += [n]
     continuar = str(input('QUER CONTINUAR? [S/N] ')).upper().strip()[0]
 media = soma / cont
-print('FIM! você digitou {} números e a média desses valores é {}'.format(cont,media))
-print('O maior valor é {} e o menor valor é {}'.format(max(list), min(list)))
+print(f'FIM! você digitou {cont} números e a média desses valores é {media}')
+print(f'O maior valor é {max(list)} e o menor valor é {min(list)}')
 
