@@ -4,9 +4,9 @@ e qual a soma entre eles, (desconsiderando o flag).'''
 
 cont = soma = n = 0
 while True:
-    soma += n
-    cont += 1
     n = int(input('Digite um número: 999 PARA PARAR! '))
     if n == 999:
         break
+    soma += n
+    cont += 1
 print(f'FIM!, VOCÊ DIGITOU {cont} NÚMEROS E A SOMA ENTRE ELES É {soma} !')
