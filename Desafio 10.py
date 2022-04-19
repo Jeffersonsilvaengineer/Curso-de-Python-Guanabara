@@ -2,4 +2,4 @@
 
 n = int(input('Digite um valor!'))
 c = n / 3.27
-print('você tem {} reais na cateira e pode comprar {:.2f} dolares!'.format(n,c))
+print(f'você tem {n} reais na cateira e pode comprar {c:.2f} dolares!')
