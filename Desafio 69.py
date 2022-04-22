@@ -9,6 +9,8 @@ while True:
     print('='*30)
     idade = int(input('Qual a idade: '))
     sexo = str(input('Qual o sexo: [M/F]')).upper().strip()
+    while sexo not in 'MF':
+        sexo = str(input('Qual o sexo: [M/F]')).upper().strip()
     continuar = str(input('Quer continuar? [S/N]')).upper().strip()
     if sexo == 'F':
         sexo = 'FEMININO'
@@ -18,7 +20,7 @@ while True:
         pessoa += 1
     if sexo == 'MASCULINO':
         homen += 1
-    if sexo == 'FEMININO' and idade > 20:
+    if sexo == 'FEMININO' and idade < 20:
         mulher += 1
     if continuar == 'N':
        break
