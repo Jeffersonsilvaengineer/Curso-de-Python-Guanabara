@@ -12,6 +12,8 @@ while True:
     while sexo not in 'MF':
         sexo = str(input('Qual o sexo: [M/F]')).upper().strip()
     continuar = str(input('Quer continuar? [S/N]')).upper().strip()
+    while continuar not in 'SN':
+        continuar = str(input('Quer continuar? [S/N]')).upper().strip()
     if sexo == 'F':
         sexo = 'FEMININO'
     elif sexo == 'M':
@@ -27,4 +29,4 @@ while True:
 print('='*10, 'FIM', '='*10)
 print(f'AO TODO TIVEMOS {pessoa} PESSOAS MAIORES DE 18 ANOS!')
 print(f'AO TODO TIVEMOS {homen} HOMENS CADASTRADOS!')
-print(f'AO TODO TIVEMOS {mulher} MULHERES ACIMA DE 20 ANOS!')
+print(f'AO TODO TIVEMOS {mulher} MULHERES COM MENOS DE 20 ANOS!')
