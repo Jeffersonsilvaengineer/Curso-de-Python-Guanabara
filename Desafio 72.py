@@ -8,8 +8,13 @@ contagem = ('zero','um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oi
 
 while True:
      numero = int(input('Digite um numero! '))
-     if 0 <= numero <= 20:
-         break
-     print('TENTE NOVAMENTE!')
-print(f'Você digitou o número {contagem[numero]} ')
+     if 0 > numero > 20:
+         print('NÚMERO INVÁLIDO!, TENTE NOVAMENTE!')
+     elif 0<= numero <=20:
+         print(f'Você digitou o número {contagem[numero]} ')
+         continuar = str(input('Quer continuar? [S] SIM  [N] NÃO')).strip().upper()
+         if continuar in 'N':
+                break
+print('Obrigado! programa finalizado!')
+
 
