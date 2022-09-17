@@ -1,4 +1,4 @@
-'''crie umprograma que leia um número inteiro qualquer e moastre na tela sua sequência de fibonacci!'''
+'''crie um programa que leia um número inteiro qualquer e moastre na tela sua sequência de fibonacci!'''
 
 n = int(input('Digite um número qualquer!'))
 t1 = 0
