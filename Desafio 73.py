@@ -10,8 +10,10 @@ tabela = ('PALMEIRAS', 'INTERNACIONAL','FLAMENGO', 'FLUMINENSE','CORINTHIANS', '
 print('*='*20)
 print('{:^40}'.format('TABELA DO BRASILEIRÃO 2022'))
 print('*='*20)
-print('5 Primeiros colocados =',tabela[:5])
-print('4 últimos colocados =',tabela[-4:])
-print('Classificação em ordem alfabética =\n',sorted(tabela))
-
-
+print('5 Primeiros colocados =', tabela[:5])
+print('*='*20)
+print('4 últimos colocados =', tabela[-4:])
+print('*='*20)
+print('Classificação em ordem alfabética =\n', sorted(tabela))
+print('*='*20)
+print(f'O santos está na {tabela.index("SANTOS")+1}ª posição')
