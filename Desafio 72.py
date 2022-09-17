@@ -5,13 +5,9 @@ contagem = ('zero','um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oi
             'onze', 'doze', 'treze', 'catorze', 'qinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
 while True:
     numero = int(input('Digite um numero! '))
-    while 0 > numero > 20:
-        numero2 = int(input('NÚMERO INVÁLIDO!, Digite um numero entre 0 e 20! '))
-        if 0 <= numero2 <= 20:
-            break
-        # print(f'Você digitou o número {contagem[numero]} ')
-    # continuar = str(input('Quer continuar? [S] SIM  [N] NÃO')).strip().upper()
-    # while not continuar in 'SN':
-    #     continuar = str(input('Quer continuar? [S] SIM  [N] NÃO')).strip().upper()
+    if 0 <= numero <= 20:
+        break
+print(f'Você digitou o número {contagem[numero]} ')
+
 
 
