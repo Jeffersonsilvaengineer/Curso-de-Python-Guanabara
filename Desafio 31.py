@@ -4,6 +4,5 @@
 d = float(input('Digite a distância em km da viagem!'))
 if (d <= 200):
     print('O valor da passagem foi',d * 0.50)
-else:
-    print('O valor da passagem foi',d * 0.45)
+print('O valor da passagem foi',d * 0.45)
     

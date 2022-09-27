@@ -3,5 +3,5 @@
 x = input('Digite seu nome completo!')
 if "silva" in x:
     print('O nome {} , tem o sobre nome silva!'.format(x))
-else:
-    print('O nome: digitado não tem o sobre nome silva!')
+print('O nome: digitado não tem o sobre nome silva!')
+

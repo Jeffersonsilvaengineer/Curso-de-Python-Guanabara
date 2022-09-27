@@ -5,7 +5,7 @@ nomevelho = 0
 mulher20 = 0
 id = 0
 for n in range(1, 5):
-    print('======= {} PESSOA ======'.format(n))
+    print(f'======= {n} PESSOA ======')
     nome = str(input('NOME: '))
     idade = int(input('IDADE: '))
     sexo = str(input('SEXO M/F: '))
@@ -16,7 +16,7 @@ for n in range(1, 5):
     if sexo in 'Mm' and idade > homemvelho:
         homemvelho = idade
         nomevelho = nome
-    if sexo in 'Ff' and idade <20:
+    if sexo in 'Ff' and idade < 20:
         mulher20 += 1
 print('A média de idade das 4 pessoas é {}! '.format(id))
 print('O homem mais velho tem {} anos e se chama {}! '.format(homemvelho,nomevelho))

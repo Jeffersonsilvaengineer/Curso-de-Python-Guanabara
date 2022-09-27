@@ -9,6 +9,5 @@ di = vc / (qa*12)
 por = sa * 30/100
 if di <= por:
     print('Parabéns seu empréstimo foi aprovado!')
-else:
-    print('Seu empréstimo foi negado porque o valor da parcela ultrapassou 30% de seu salário!')
+print('Seu empréstimo foi negado porque o valor da parcela ultrapassou 30% de seu salário!')
     

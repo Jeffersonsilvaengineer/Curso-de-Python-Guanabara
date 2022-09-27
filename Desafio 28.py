@@ -8,6 +8,5 @@ a = random.randint(0,5)
 print('O número pensado pelo computador foi',a)
 if n == a:
     print('PARABÉNS! VOÇÊ ACERTOU O NÚMERO.')
-else:
-    print('PERDEU! VOÇÊ ERROU O NÚMERO.')
+print('PERDEU! VOÇÊ ERROU O NÚMERO.')
     

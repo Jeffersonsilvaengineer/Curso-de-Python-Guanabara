@@ -6,6 +6,5 @@ multa = (v - 80)*7
 exedido = (v - 80)
 if v >=80.0:
     print('Voçê ultrapassou a velocidade maxíma de 80.0 km em {}km e  foi multado em {} reais!'.format(exedido,multa))
-else:
-    print('PARABÉNS! voçê esta dentro da velocidade maxíma permitida.')
+print('PARABÉNS! voçê esta dentro da velocidade maxíma permitida.')
 
