@@ -23,3 +23,4 @@ for par in num:
        if par % 2 == 0:
               print(par, end=' ')
 
+
