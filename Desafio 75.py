@@ -13,7 +13,7 @@ print(f'Você digitou os valores: {num}')
 if 9 in num:
        print(f'O número 9 foi digitado {num.count(9)} vezes!')
 else:
-       print('Onúmero 9 não foi digitado!')
+       print('O número 9 não foi digitado!')
 if 3 in num:
        print(f'O número 3 apareceu pela primeira vez na {num.index(3)+1}ª posição! ')
 else:
