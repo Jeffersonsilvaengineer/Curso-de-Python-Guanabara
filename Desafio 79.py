@@ -10,6 +10,8 @@ while True:
     list.append(v)
     print('Valor adicionado com sucesso...')
     cont = str(input('Quer continuar? [S/N] ')).upper()
+    while cont not in 'S/N':
+        cont = str(input('Resposta inválida! quer continuar? [S/N] ')).upper()
     if cont == 'N':
         break
 print(list)
@@ -24,6 +26,8 @@ while True:
         list.append(v)
         print('Valor adicionado com sucesso...')
         cont = str(input('Quer continuar? [S/N] ')).upper()
+        while cont not in 'S/N':
+            cont = str(input('Resposta inválida! quer continuar? [S/N] ')).upper()
         if cont == 'N':
             break
 print(list)
