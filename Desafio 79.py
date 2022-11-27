@@ -14,6 +14,7 @@ while True:
         cont = str(input('Resposta inválida! quer continuar? [S/N] ')).upper()
     if cont == 'N':
         break
+list.sort()
 print(list)
 
 
@@ -30,4 +31,5 @@ while True:
             cont = str(input('Resposta inválida! quer continuar? [S/N] ')).upper()
         if cont == 'N':
             break
+list.sort()
 print(list)
