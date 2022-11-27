@@ -4,23 +4,21 @@ B: A lista de valores ordenados de forma decrescente!
 C: Se o valor 5 foi digitado e está ou não na lista!'''
 
 list = []
-n = 0
 while True:
-    l = int(input('Digite um valor: '))
-    n += 1
-    list.append(l)
-    list.sort()
-    list.reverse()
-    if '5' in list:
-        x = list
+    l = list.append(int(input('Digite um valor: ')))
+    list.sort(reverse=True)
     c = str(input('Quer continuar? [S/N] ')).upper()
     while c not in 'S/N':
-        c = str(input('Resposta inválida! digite novamente: ')).upper()
+        c = str(input('Resposta inválida! digite novamente [S/N]: ')).upper()
     if c == 'N':
         break
-print(f'Ao total foram digitados {n} numeros!')
+print(f'Ao total foram digitados {len(list)} numeros!')
 print(f'Os valores digitados em ordem decrecente foram {list}')
-if 5 in list: print('O numero 5 foi digitado e está presente na lista!')
+if 5 in list:
+    print('O numero 5 foi digitado e está presente na lista!')
+else:
+    print('O número 5 não está na lista!')
+
 
 
 
