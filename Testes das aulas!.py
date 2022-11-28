@@ -1,6 +1,11 @@
-lanche = ('x-tudo', 'x-bacon', 'cachorro quente', 'dogão')
-for c in lanche:
-    print(f'Eu vou comer {c}!')
-print('Comi pra caramba!')
-from num2words import num2words
-num_ptbr = num2words(numero, lang='pt-br')
+list = []
+list_x = []
+list_y = []
+a = list.append(input('Digite algo: '))
+for i, c in enumerate(list):
+    if c == '2':
+        list_x.append(c)
+    elif c == '3':
+        list_y.append(c)
+print(list_y)
+print(list_x)
