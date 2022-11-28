@@ -19,7 +19,3 @@ if 5 in list:
 else:
     print('O número 5 não está na lista!')
 
-
-
-
-
