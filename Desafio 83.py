@@ -1,6 +1,5 @@
 '''Crie um programa onde o usuário digite um expressão qualquer que use parênteses. Seu programa deverá analisar
 se a expressão passada está comparêntese abertos e fechados na ordem correta'''
-
 list_x = []
 list_y = []
 expr = str(input('Digite uma expressão: '))
