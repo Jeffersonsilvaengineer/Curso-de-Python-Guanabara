@@ -1,31 +1,42 @@
-dados = list()
-dados.append('jefferson')
-dados.append(25)
-pessoas = []
-pessoas.append(dados[:])
-pessoas.append('joão')
-pessoas.append(32)
-print(pessoas)
-pessoas = [['jefferson', 29],['simeia', 34],['palmeiras', 105], ['titan', 2022]]
-print(pessoas[2][0])
-print(pessoas[0][1])
-print(pessoas[2])
-print(pessoas)
-for c in pessoas:
-    print(f'{c[0]} tem {c[1]} anos de idade!')
-teste = list()
-test2 = list()
-maior = menor = 0
-for c in range(3):
-    test2.append(str(input('Digite um nome: ')))
-    test2.append(int(input('Digite sua idade: ')))
-    teste.append(test2[:])
-    test2.clear()
-for c in teste:
-    if c[1] >= 18:
-        maior +=1
-        print(f'{c[0]} é maior de idade!')
-    else:
-        menor += 1
-        print(f'{c[0]} é menor de idade!')
-print(f'{maior} maior de idade e {menor} menores de idade!')
+'''crie um programa que tenha duas variaveis inteiras, a primeira vai ter o dia inicial
+ e a segunda vai ter dia da semana a acrescentar a primeira'''
+'ex: se a primeira variavel tiver o valor de 0 e a segunda com o valor 2, o programa deve mostar terça feira'
+
+dias = ['Domingo', 'Segunda feira', 'Terça feira', 'Quarta feira', 'Quinta feira', 'Sexta feira', 'Sabado']
+va1 = str(input('Digite um dia da semana: ')).upper()
+va2 = int(input('Digite um valor: '))
+if va1 == 'DOMINGO':
+    va1 = 0
+elif va1 == 'SEGUNDA FEIRA':
+    va1 = 1
+elif va1 == 'TERÇA FEIRA':
+    va1 = 2
+elif va1 == 'QUARTA FEIRA':
+    va1 = 3
+elif va1 == 'QUINTA FEIRA':
+    va1 = 4
+elif va1 == 'SEXTA FEIRA':
+    va1 = 5
+elif va1 == 'SABADO':
+    va1 = 6
+x = va1 + va2
+z = va2 % 7
+y = z + va1
+print(x)
+print(z)
+print(y)
+if z == 0 or 7:
+    print(dias[0])
+elif z == 1:
+    print(dias[1])
+elif z == 2:
+    print(dias[2])
+elif z == 3:
+    print(dias[3])
+elif z == 4:
+    print(dias[4])
+elif z == 5:
+    print(dias[5])
+elif z == 6:
+    print(dias[6])
+
