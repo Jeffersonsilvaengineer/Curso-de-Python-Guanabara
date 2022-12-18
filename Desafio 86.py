@@ -13,6 +13,7 @@ for c in range(3):
 print(f'{matriz[0]}{matriz[1]}{matriz[2]}')
 print(f'{matriz[3]}{matriz[4]}{matriz[5]}')
 print(f'{matriz[6]}{matriz[7]}{matriz[8]}')
+
 #solução do professor
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 for l in range(3):
