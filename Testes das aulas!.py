@@ -3,6 +3,7 @@
 'ex: se a primeira variavel tiver o valor de 0 e a segunda com o valor 2, o programa deve mostar terça feira'
 
 dias = ['Domingo', 'Segunda feira', 'Terça feira', 'Quarta feira', 'Quinta feira', 'Sexta feira', 'Sabado']
+
 va1 = str(input('Digite um dia da semana: ')).upper()
 va2 = int(input('Digite um valor: '))
 if va1 == 'DOMINGO':
@@ -19,13 +20,9 @@ elif va1 == 'SEXTA FEIRA':
     va1 = 5
 elif va1 == 'SABADO':
     va1 = 6
-x = va1 + va2
-z = va2 % 7
-y = z + va1
-print(x)
+z = va2 % 6
 print(z)
-print(y)
-if z == 0 or 7:
+if z == 0:
     print(dias[0])
 elif z == 1:
     print(dias[1])
