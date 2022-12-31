@@ -2,6 +2,7 @@
 A) A soma de todos os valores pares digitados.
 B) A soma dos valores da terceira coluna.
 C) O maior valor da segunda linha.'''
+
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 for l in range(3):
     for c in range(3):
@@ -18,5 +19,3 @@ maior2l = max(maior2l)
 print(f'A soma de todos os valores pares digitados foi: {somatotal}')
 print(f'A soma dos valores da terceira coluna é: {som3}')
 print(f'O maior valor da segunda linha é: {maior2l}')
-
-

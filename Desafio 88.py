@@ -1,14 +1,18 @@
 '''Crie um programa que ajude um jogador da mega sena a criar palpites, O programa vai perguntar quantos
-jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo cadastrando tudo em uma lista composta.'''
+jogos serão gerados e quantos números entre 6 e 20 serão sorteados por jogo,o programa sorteará números entre 1 e 60
+ para cada jogo, cadastrando tudo em uma lista composta.'''
 import random
 from time import sleep
-print('---' * 14)
-print('{: ^40}'.format('BOLÃO DA MEGA SENA'))
-print('---'*14)
-jogos = int(input('Quantos jogos você deseja? '))
-print('=-=' * 14)
-print('{: ^40}'.format(f'SORTEANDO {jogos} JOGOS'))
-print('=-='*14)
+
+print('---' * 20)
+print('{: ^60}'.format('BOLÃO DA MEGA SENA'))
+print('---' * 20)
+jogos = int(input('QUANTOS JOGOS VOCÊ DESEJA FAZER: '))
+print('---' * 20)
+quantidade = int(input('QUANTOS NÚMEROS POR JOGO VOCÊ DESEJA? ESCOLHA ENTRE [06 E 20]: '))
+print('=-=' * 20)
+print('{: ^40}'.format(f'SORTEANDO {jogos} JOGOS COM {quantidade} NÚMEROS POR JOGO!'))
+print('=-=' * 20)
 valor = 0
 for c in range(jogos):
     list_mega = []
@@ -19,11 +23,11 @@ for c in range(jogos):
         else:
             list_mega.append(numeros)
         list_mega.sort()
-        if len(list_mega) == 6:
-                break
-    sleep(0.5)
-    print(f'{c+1}º JOGO ---> {list_mega}')
-print('=-=' * 14)
+        if len(list_mega) == quantidade:
+            break
+    sleep(0.4)
+    print(f'{c + 1}º JOGO ---> {list_mega}')
+print('=-=' * 20)
 if len(list_mega) == 6:
     valor = 4.5 * jogos
 elif len(list_mega) == 7:
