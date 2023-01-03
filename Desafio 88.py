@@ -31,7 +31,7 @@ if xy == 'MEGA SENA':
             list_mega.sort()
             if len(list_mega) == quantidade:
                 break
-        sleep(0.5)
+        sleep(0.3)
         print(f'{c + 1:>2}º JOGO --> {list_mega}')
     print('=-=' * 20)
     if len(list_mega) == 6:
@@ -86,7 +86,7 @@ elif xy == 'QUINA':
             list_quina.sort()
             if len(list_quina) == quantidade:
                 break
-        sleep(0.5)
+        sleep(0.3)
         print(f'{c + 1:>2}º JOGO --> {list_quina}')
     print('=-=' * 20)
     if len(list_quina) == 5:
