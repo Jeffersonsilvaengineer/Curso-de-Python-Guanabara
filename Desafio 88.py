@@ -6,7 +6,7 @@ import random
 from time import sleep
 
 print('---' * 20)
-print('{: ^60}'.format('LOTERIAS FLORA NECTAR'))
+print('{: ^60}'.format('LOTERIAS JEFFERSON SILVA'))
 print('---' * 20)
 xy = str(input('DESEJA JOGAR ->[MEGA SENA / QUINA]: ')).upper()
 print('---' * 20)
