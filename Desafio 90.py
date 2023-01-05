@@ -1,5 +1,5 @@
-'''Faça um programa que leia nome e média de um aluno guardando também sua situação em um dicionário
-No final mostre o conteúdo da estrutura na tela.'''
+''' Faça um programa que leia nome e média de um aluno guardando também sua situação em um dicionário
+No final mostre o conteúdo da estrutura na tela. '''
 
 aluno = dict()
 aluno['Nome'] = str(input('NOME: '))
