@@ -22,3 +22,4 @@ print('=-' * 30)
 print(f'O jogador {jogador["Nome"]} jogou {jogador["Partidas"]} partidas.')
 for c in range(jogador["Partidas"]):
      print(f'=> Na partida {c + 1}, fez {jogador["Gols"][c]} gols.')
+print(f'Foi um total de {soma} gols.')
