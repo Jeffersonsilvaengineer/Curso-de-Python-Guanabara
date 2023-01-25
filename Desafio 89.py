@@ -19,7 +19,7 @@ print('-=' * 20)
 print(F'{"Nº":<4}{"NOME":<10}{"MÉDIA":>8}')
 print('---' * 10)
 for i, a in enumerate(list_alunos):
-    print(f'{i:<4}{a[0]:<10}{a[2]:>8.1f}')
+    print(f'{i + 1:<4}{a[0]:<10}{a[2]:>8.1f}')
 while True:
     print('=-' * 10)
     opc = int(input('Notas de qual aluno? [999 -->PARAR] '))
