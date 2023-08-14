@@ -1,4 +1,5 @@
 print('crie um algoritimo que leia um numero e mostre seu dobro seu triplo e sua rais quadrada!')
+
 n = int(input('digite um numero!'))
 d = int(n * 2)
 t = int(n * 3)

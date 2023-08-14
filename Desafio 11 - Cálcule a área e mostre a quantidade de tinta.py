@@ -1,4 +1,4 @@
-'''Faça um progama que leia em metros a altura e largura de uma parede e calcule sua área e quanto de tinta será '
+'''Faça um programa que leia em metros a altura e largura de uma parede e calcule sua área e quanto de tinta será '
       'nescessario para pintar a parede! considere para cada litro de tinta voçê pinta 2 m²!'''
 
 al = float(input('Digite a altura da parede!'))

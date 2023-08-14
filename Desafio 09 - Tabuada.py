@@ -1,6 +1,6 @@
 '''faça um programa que leia um numero inteiro e mostre sua tabuada!'''
 
-n = int(input('digite um numero!'))
+n = int(input('digite um numero! :'))
 print(f'você digitou {n}!')
 print(f'A tabuada de {n} é!')
 print(f'{n} x 01 = \033[41;30m{n*1}\033[m')
