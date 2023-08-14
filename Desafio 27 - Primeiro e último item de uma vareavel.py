@@ -3,6 +3,6 @@ dessa pessoa! '''
 
 nome = input('Digite seu nome completo!')
 x = nome.split()
-print('O nome digitado foi-->',nome)
-print('Primeiro nome:',x[0])
-print('Último nome:',x[-1])
+print('O nome digitado foi-->', nome)
+print('Primeiro nome:', x[0])
+print('Último nome:', x[-1])
