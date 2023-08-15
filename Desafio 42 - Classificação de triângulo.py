@@ -4,6 +4,7 @@ e mostre se forma um triângulo equilátero , isósceles ou escaleno!'''
 p = float(input('Digite o comprimento da primeira reta!'))
 s = float(input('Digite o comprimento da segunda reta!'))
 t = float(input('Digite o comprimento da terceira reta!'))
+
 if p < s+t and s < p+t and t < p+s and p == s == t:
     print('Essas retas formam um triângulo EQUILÁTERO!')
 elif p < s+t and s < p+t and t < p+s and p == t or p == s:

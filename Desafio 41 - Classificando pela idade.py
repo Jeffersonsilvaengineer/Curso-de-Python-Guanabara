@@ -1,4 +1,4 @@
-'''Faça u  programa que leia o ano de nascimento de u a pessoa e mostre sua categoria de acordo com sua idade!
+'''Faça u  programa que leia o ano de nascimento de uma pessoa e mostre sua categoria de acordo com sua idade!
  até 9 anos = mirim
  até 14 anos = infantil
  até 19 anos = junior
@@ -7,7 +7,7 @@
 
 import datetime
 
-nasc = int(input('Qual seu ano de nascimento!'))
+nasc = int(input('Qual seu ano de nascimento? '))
 ano = datetime.datetime.today()
 idade = ano.year - nasc
 if idade < 9:

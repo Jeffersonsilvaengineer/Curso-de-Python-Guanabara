@@ -1,4 +1,5 @@
 '''Faça um programa que jogue pedra papel tesoura com o usuário!'''
+
 print('{:=^80}'.format( '\033[31;40;7mPEDRA PAPEL TESOURA\033[m'))
 print('SUAS OPÇÕES:\n[0] PEDRA \n[1] PAPEL \n[2] TESOURA')
 import random
