@@ -1,4 +1,5 @@
 '''Faça um programa que leia o peso de cinco pessoas e mostre qual é o maior e qual é o menor!'''
+
 maior = 0
 menor = 0
 for p in range(1, 6):

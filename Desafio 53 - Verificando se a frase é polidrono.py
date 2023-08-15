@@ -1,4 +1,4 @@
-'''Crie um programa que leia uma frase qualquer e dia se ela é um polindromo, desconsedere os espaços'''
+'''Crie um programa que leia uma frase qualquer e diga se ela é um polindromo, desconsedere os espaços'''
 
 frase = str(input('Digite uma frase! ')).strip().upper()
 palavras = frase.split()
