@@ -6,7 +6,7 @@ while True:
     if n < 0:
         break
     print('='*33)
-    for cont in range(1,11):
+    for cont in range(1, 11):
         print(f'{n} X {cont} = {n*cont}')
     print('='*33)
 print('=' * 33)
