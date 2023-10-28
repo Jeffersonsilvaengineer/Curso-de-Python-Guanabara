@@ -15,7 +15,7 @@ while opção != 5:
         print(f'A soma dos dois números é = {soma}!')
     elif opção == 2:
         multiplicação = pri * seg
-        print(f'O número {pri} x {seg} é = {multiplicação}!')
+        print(f'A multiplicação de  {pri} x {seg} é = {multiplicação}!')
     elif opção == 3:
         m = [pri, seg]
         maior = max(m)
