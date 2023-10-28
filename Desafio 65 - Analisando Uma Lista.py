@@ -5,6 +5,7 @@ quer ou não continuar a digitar valores!'''
 cont = soma = media = menor = maior = 0
 list = []
 continuar = 'S'
+
 while continuar in 'Ss':
     n = int(input('Digite um número: '))
     cont += 1
