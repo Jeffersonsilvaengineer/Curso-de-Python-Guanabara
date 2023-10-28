@@ -4,7 +4,7 @@
 [3] MAIOR NÚMERO
 [4] NOVOS NÚMEROS
 [5] SAIR DO PROGRAMA'''
-opção = ''
+opção = 0
 pri = int(input('Primeiro número: '))
 seg = int(input('Segundo número: '))
 while opção != 5:
@@ -12,21 +12,19 @@ while opção != 5:
     opção = int(input('Digite sua opção!'))
     if opção == 1:
         soma = pri + seg
-        print('A soma dos dois números é = {}!'.format(soma))
+        print(f'A soma dos dois números é = {soma}!')
     elif opção == 2:
         multiplicação = pri * seg
-        print('Os dois números multiplicados é = {}!'.format(multiplicação))
+        print(f'O número {pri} x {seg} é = {multiplicação}!')
     elif opção == 3:
-        m = [pri,seg]
+        m = [pri, seg]
         maior = max(m)
-        print('O maior número digitado foi {}!'.format(maior))
+        print(f'O maior número digitado foi {maior}!')
     elif opção == 4:
         print('Vamos digitar novos números!')
         pri = int(input('Primeiro número: '))
         seg = int(input('Segundo número: '))
     elif opção == 5:
-        ''
+        pass
     else:
-        print('Oção inválida!')
-
-
+        print('Opção inválida!')
