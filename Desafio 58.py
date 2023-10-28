@@ -3,11 +3,11 @@ vai jogar até acertar, mostrando no final quantos palpites foram necessários p
 
 import random
 jogador = 0
-tente = 0
-computador = random.randint(0,10)
+tentativas = 0
+computador = random.randint(0, 1000000)
 while jogador != computador:
-    jogador = int(input('Digite um número!'))
-    tente += 1
+    jogador = int(input('Digite um número: '))
+    tentativas += 1
     if jogador == computador:
         jogador = computador
     else:
@@ -15,8 +15,4 @@ while jogador != computador:
             print('MENOS...')
         elif jogador < computador:
                     print('MAIS...')
-print('PARABÉNS!, você acertou o número pensado pelo computador depois de {} tentativas! '.format(tente))
-
-
-
-
+print(f'PARABÉNS!, você acertou o número pensado pelo computador depois de {tentativas} tentativas! ')
