@@ -4,6 +4,7 @@
 [3] MAIOR NÚMERO
 [4] NOVOS NÚMEROS
 [5] SAIR DO PROGRAMA'''
+
 opção = 0
 pri = int(input('Primeiro número: '))
 seg = int(input('Segundo número: '))
