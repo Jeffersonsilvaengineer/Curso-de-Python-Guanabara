@@ -1,4 +1,4 @@
-'''Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso de zero até vinte
+'''Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso de zero até vinte,
 seu programa deverá ler um número pelo teclado entre zero e vintee mostralo por extenso.'''
 
 contagem = ('zero','um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez',

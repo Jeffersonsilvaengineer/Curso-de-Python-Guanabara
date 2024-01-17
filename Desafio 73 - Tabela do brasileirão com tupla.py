@@ -1,9 +1,10 @@
-'''Crie uma tupla com os 20 times do campeonato brasileiro na ordem de colocação
-depois mostre:
+'''Crie uma tupla com os 20 times do campeonato brasileiro na ordem de colocação depois mostre:
+
 A, apenas os 5 primeiros colocados
 B, apenas os 4 ultimos
 C, uma lista com os times em ordem alfabética
 D, em que posição está o time do santos.'''
+
 tabela = ('PALMEIRAS', 'INTERNACIONAL','FLAMENGO', 'FLUMINENSE','CORINTHIANS', 'ATHLETICO-PR',
           'ATLETICO-MG', 'AMÉRICA-MG', 'GOIAS', 'SANTOS', 'BRAGANTINO', 'BOTAFOGO', 'SÃO PAULO',
           'CEARA', 'FORTALEZA', 'CORITIBA', 'CUIABA', 'AVAI', 'ATLETICO-GO', 'JUVENTUDE')
