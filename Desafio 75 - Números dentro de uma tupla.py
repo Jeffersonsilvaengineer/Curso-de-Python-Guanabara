@@ -11,16 +11,14 @@ num = (int(input('Digite um número: ')),
 
 print(f'Você digitou os valores: {num}')
 if 9 in num:
-       print(f'O número 9 foi digitado {num.count(9)} vezes!')
+    print(f'O número 9 foi digitado {num.count(9)} vezes!')
 else:
-       print('O número 9 não foi digitado!')
+    print('O número 9 não foi digitado!')
 if 3 in num:
-       print(f'O número 3 apareceu pela primeira vez na {num.index(3)+1}ª posição! ')
+    print(f'O número 3 apareceu pela primeira vez na {num.index(3) + 1}ª posição! ')
 else:
-       print('O número 3 não foi digitado')
+    print('O número 3 não foi digitado')
 print('Os números pares foram: ', end='')
 for par in num:
-       if par % 2 == 0:
-              print(par, end=' ')
-
-
+    if par % 2 == 0:
+        print(par, end=' ')
