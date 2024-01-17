@@ -21,7 +21,7 @@ while True:
         mil += 1
     if continuar == 'N':
         break
-print('='*9,'FIM','='*9)
+print('=' * 9, 'FIM', '=' * 9)
 print(f'O total da compra foi {total:.2f} reais!')
 print(f'{mil} produtos custam mais de mil reais!')
 print(f'O produto mais barato foi {barato}!')
