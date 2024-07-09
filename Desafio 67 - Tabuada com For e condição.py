@@ -1,5 +1,5 @@
 '''Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada número digitado
-pelo usuário. O programa será interrompido quando o número digitado for negativo.'''
+pelo usuário. O programa será interrompido quando o número digitado for negativo. '''
 
 while True:
     n = int(input('Quer ver a tabuada de qual valor? '))

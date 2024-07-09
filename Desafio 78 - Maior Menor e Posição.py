@@ -3,7 +3,7 @@ foi o maior e o menor valor digitado e suas respectivas posições na lista'''
 
 valores = []
 for x in range(5):
-    valores.append(int(input(f'Digite um valor na posição {x}: ')))
+    valores.append(int(input(f'Digite um valor na posição {x + 1}: ')))
 
 min_value = min(valores)
 max_value = max(valores)
